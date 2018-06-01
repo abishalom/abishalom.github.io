@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title> Abraham Shalom </title>
+	
+	<!-- My CSS file: -->
+	<link rel="stylesheet" type="text/css" href="css/styling.css">
+
+	<!-- Bootstrap CSS file: -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<!-- Pages necessary: 
+		1. About me
+		2. Projects - include Fantasy stuff
+		3. Work Experience
+		4. Contact? -->
+
+	<!-- Navbar with Links -->
+	<nav class="navbar navbar-expand-md navbar-dark justify-content-center rounded align-items-center navbar-style">
+		<a class="brand-style navbar-brand mr-0" href="index.html">
+			Abraham Shalom
+		</a>
+		<button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+    	</button>
+
+    	<div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="navbar2">
+    		<ul class="navbar-nav mx-auto text-center">
+    			<li class="nav-item nav-item-style active">
+    				<a class="nav-link" href="index.html">
+    					About Me
+    				</a>
+    			</li>
+    			<li class="nav-item nav-item-style">
+    				<a class="nav-link" href="projects.html">
+    					Projects
+    				</a>
+    			</li>
+    			<li class="nav-item nav-item-style">
+    				<a class="nav-link" href="work_experience.html">
+    					Work Experience
+    				</a>
+    			</li>
+    		</ul>
+    		<ul class="nav navbar-nav flex-row justify-content-center flex-nowrap">
+    			<li class="nav-item">
+    				<a class="nav-link" href="contact.html">
+    					Contact
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
+	</nav>
+	<br>
+
+
+	<!-- Homepage content -->
+	<div class="container">
+		<div class="row justify-content-center" >
+			<div class="col-4" style="border:1px solid black">
+				<p>Image of me</p>
+			</div>
+			<div class="col-6" style="border:1px solid black">
+				<p>Below is a quick bio.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Bootstrap works from smallest split up -->
+	<!-- Can nest grids, creating mini grids. -->
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col-xs-6">
+				<a class="btn btn-default" href="#">Link 1</a>
+				<button class="btn btn-default">Button 1 </button>
+				<input class="btn btn-default" type="button" value="Input button">
+				<input class="btn btn-default" type="submit">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<button class="btn btn-default">Button 1 </button>
+				<button class="btn btn-primary">Button 1 </button>
+				<button class="btn btn-success">Button 1 </button>
+			</div>
+		</div>
+	</div> -->
+
+<!-- 	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>Inline Form.</h2>
+				<form action="" method="" class="form-inline">
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="form-group">
+						<label for="password"> Password </label>
+						<input type="password" class="form-control" id="password">
+					</div>
+					<div class="form-group">
+						<label for="file">File</label>
+						<input type="file"  id="file">
+					</div>
+					<div class="form-group">
+						<input type="submit" class="bt btn-default" id="submit" value="submit">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> -->
+<!-- 
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Horizontal Form.</h2>
+				<form action="" method="" class="form-horizontal">
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<div class=col-sm-10>
+							<input type="email" class="form-control" id="email">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password"> Password </label>
+						<div class=col-sm-10>
+							<input type="password" class="form-control" id="password">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="file">File</label>
+						<div class=col-sm-10>
+							<input type="file"  id="file">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class=col-sm-10>
+							<input type="submit" class="bt btn-default" id="submit" value="submit">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> -->
+	<!-- <div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownmenu" data-toggle="dropdown">
+						Dropdown
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" area-labelled-by="dropdownmenu">
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li><a href="#">Link 1</a></li>
+						<li><a href="#">Link 2</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+
+	<!-- Bootstrap JavaScript files: -->
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/popper-1.14.3.slim.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+<!-- <div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<ul class="nav nav-tabs">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">About me</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+			</ul>
+		</div>
+	</div>
+</div> -->
+
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper-1.14.3.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

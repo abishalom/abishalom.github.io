@@ -1,0 +1,35 @@
+:root{
+	--nav-font-size: 32pt;
+	--primary-color: #0056b3;
+	--secondary-color: #333333;
+}
+
+
+.brand-style{
+	/*font-size: var(--nav-font-size) !important;*/
+	font-weight: bold;
+}
+
+.nav-item-style{
+	padding-left: 25px;
+	padding-right: 25px;
+	/*font-size: var(--nav-font-size);*/
+}
+
+.navbar-style{
+	background-color: var(--primary-color);
+}
+
+/*Style project descriptions*/
+.project{
+
+}
+
+.project a{
+	text-decoration: none;
+	color: black;
+}
+.project a:hover{
+	text-decoration: none;
+	color: var(--primary-color);
+}
